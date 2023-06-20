@@ -1,0 +1,17 @@
+@import "companents/Header/index.scss";
+@import "companents/Hero/index.scss";
+@import "companents/Genres/index.scss";
+@import "companents/NewBooks/index.scss";
+@import "companents/Books/index.scss";
+@import "companents/Footer/index.scss";
+@import "companents/About/index.scss";
+@import "companents/AllBooks/index.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
