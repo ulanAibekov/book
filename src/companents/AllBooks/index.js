@@ -6,6 +6,7 @@ import {HiOutlineAdjustmentsHorizontal} from "react-icons/hi2";
 const AllBooks = () => {
     // const book = document.querySelector(".book")
     return (
+
         <div id="allbooks">
             <div className="container">
                 <div className="allbooks">
