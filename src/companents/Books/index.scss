@@ -25,6 +25,12 @@
         display: flex;
         overflow-x: scroll;
 
+        &__book {
+          margin-right: 40px;
+
+          h2 {
+            padding: 5px 0;
+
         .book {
           margin-right: 40px;
 
@@ -56,6 +62,201 @@
 
       }
     }
+}
+
+
+@media (max-width: 768px) {
+  #books{
+    .books{
+      &--title{
+        h1{
+          font-size: 40px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          img{
+            width: 177px;
+            height: 260px;
+          }
+          h2{
+            padding: 5px 0;
+          }
+          p{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #books{
+    padding: 20px 0;
+    .books{
+      &--title{
+        h1{
+          font-size: 30px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          img{
+            width: 177px;
+            height: 260px;
+          }
+          h2{
+            padding: 5px 0;
+            font-size: 14px;
+            width: 200px;
+          }
+          p{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 451px) {
+  #books{
+    padding: 20px 0;
+    .books{
+      &--title{
+        h1{
+          font-size: 30px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          img{
+            width: 177px;
+            height: 260px;
+          }
+          h2{
+            padding: 5px 0;
+            font-size: 14px;
+            width: 200px;
+          }
+          p{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #books{
+    padding: 20px 0;
+    .books{
+      &--title{
+        h1{
+          font-size: 30px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          img{
+            width: 177px;
+            height: 260px;
+          }
+          h2{
+            padding: 5px 0;
+            font-size: 14px;
+            width: 180px;
+          }
+          p{
+
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  #books{
+    padding: 20px 0;
+    .books{
+      &--title{
+        margin-bottom: 40px;
+        h1{
+          font-size: 25px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          margin-right: 9px;
+          img{
+            width: 149px;
+            height: 216px;
+          }
+          h2{
+            padding: 5px 0;
+            font-size: 13px;
+            width: 160px;
+          }
+          p{
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #books{
+    padding: 20px 0;
+    .books{
+      &--title{
+        margin-bottom: 40px;
+        h1{
+          font-size: 25px;
+        }
+        h3{
+          font-size: 15px;
+        }
+      }
+      &--block{
+        &__book{
+          margin-right: 9px;
+          img{
+            width: 125px;
+            height: 176px;
+          }
+          h2{
+            padding: 5px 0;
+            font-size: 11px;
+            width: 130px;
+          }
+          p{
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+=======
 
 }
 
@@ -90,5 +291,6 @@
 }
 
 @media (max-width: 320px) {
+
 
 }

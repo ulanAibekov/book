@@ -1,0 +1,110 @@
+#newBooks {
+  padding: 80px 0;
+
+  .newBooks {
+    h1 {
+      color: var(--text-color, #19272E);
+      text-align: center;
+      font-size: 48px;
+      font-weight: 500;
+      padding: 80px 0;
+    }
+
+    &--block {
+      padding: 40px 0;
+      display: flex;
+      //align-items: flex-start;
+      justify-content: center;
+      //overflow-x: scroll;
+      gap: 64px;
+      &__book1 {
+        padding: 80px 0;
+
+        image {
+          width: 200px;
+          height: 300px;
+        }
+        h2 {
+          margin-top: 10px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 120%;
+          text-transform: uppercase;
+        }
+
+        p {
+          margin-top: 15px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+
+      &__book2 {
+
+        h2 {
+          margin-top: 10px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 120%;
+          text-transform: uppercase;
+        }
+
+        p {
+          margin-top: 15px;
+          font-weight: 500;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+#nowBooks{
+  .newBooks{
+    h1{
+
+    }
+    &--block{
+      &__book1{
+        img{
+
+        }
+        h2{
+
+        }
+        p{
+
+        }
+      }
+    }
+  }
+}
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+}
