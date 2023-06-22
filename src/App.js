@@ -19,8 +19,6 @@ function App() {
         <About/>
         <Footer/>
         <AllBooks/>
-
-        rr
     </div>
   );
 }
