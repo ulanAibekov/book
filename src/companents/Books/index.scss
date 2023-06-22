@@ -1,42 +1,94 @@
-#books{
+#books {
   padding: 80px 0;
-  .container{
-    .books{
-      &--title{
+    .books {
+      &--title {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        h1{
+        margin-bottom: 80px;
+
+        h1 {
           font-weight: 500;
           font-size: 48px;
           color: #19272E;
         }
-        h3{
+
+        h3 {
           font-weight: 500;
           font-size: 18px;
           color: #818EEA;
+          cursor: pointer;
         }
       }
-      &--block{
+
+      &--block {
         display: flex;
-        padding: 64px 0;
-        .book{
+        overflow-x: scroll;
+
+        .book {
           margin-right: 40px;
-          h2{
+
+          h2 {
             font-weight: 700;
             font-size: 18px;
             line-height: 120%;
             color: #19272E;
           }
-          p{
+
+          p {
             font-weight: 400;
             font-size: 16px;
             line-height: 140%;
             color: #19272E;
 
           }
+
+          img {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+          }
         }
+
+        &::-webkit-scrollbar {
+          display: none;
+        }
+
       }
     }
-  }
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+}
+
+
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 451px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 320px) {
+
 }
