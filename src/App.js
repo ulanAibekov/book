@@ -16,7 +16,7 @@ function App() {
         <Genres/>
         <NewBooks/>
         <Books/>
-        <About/>
+       <About/>
         <Footer/>
         <AllBooks/>
     </div>

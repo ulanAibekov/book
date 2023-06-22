@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss'
-import data from "../Data/Data"
+// import data from "../Data/Data"
 import {HiOutlineAdjustmentsHorizontal} from "react-icons/hi2";
 
 const AllBooks = () => {
@@ -23,14 +23,14 @@ const AllBooks = () => {
                             <option value="z-a"> Sort by  Z-A</option>
                         </select>
                         <div className="allbooks--btn__icon">
-                            <HiOutlineAdjustmentsHorizontal/>
+                            {/*<HiOutlineAdjustmentsHorizontal/>*/}
                         </div>
                     </div>
 
                     <div className="allbooks--block">
                         <div className="allbooks--block__check">
                             <h3>Genres</h3>
-                            <h5> <input type="checkbox" style={{marginRight:'15px', width:'18px', height:'18px',}}/> AutographedBooks</h5>
+                            {/*<h5> <input type="checkbox" style={{marginRight:'15px', width:'18px', height:'18px',}}/> AutographedBooks</h5>*/}
                             <h5> <input type="checkbox" style={{marginRight:'15px',width:'18px', height:'18px',}}/> Sci-Fi</h5>
                             <h5> <input type="checkbox" style={{marginRight:'15px',width:'18px', height:'18px',}}/> For kids</h5>
                             <h5> <input type="checkbox" style={{marginRight:'15px',width:'18px', height:'18px',}}/> For teenagers</h5>
@@ -46,15 +46,15 @@ const AllBooks = () => {
 
                         <div className="allbooks--block__books">
                             {/*<div className="allbooks--block__books--book">*/}
-                            {
-                                data.map((el,idx)=>(
-                                    <div className="allbooks--block__books--book">
-                                        <img src={el.img} alt="img"/>
-                                        <h4>{el.name}</h4>
-                                        <h5>{el.avtor}</h5>
-                                    </div>
-                                ))
-                            }
+                            {/*{*/}
+                            {/*    data.map((el,idx)=>(*/}
+                            {/*        <div className="allbooks--block__books--book">*/}
+                            {/*            <img src={el.img} alt="img"/>*/}
+                            {/*            <h4>{el.name}</h4>*/}
+                            {/*            <h5>{el.avtor}</h5>*/}
+                            {/*        </div>*/}
+                            {/*    ))*/}
+                            {/*}*/}
                         </div>
                     </div>
                 </div>
