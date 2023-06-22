@@ -8,6 +8,7 @@ import About from "./companents/About";
 import Footer from "./companents/Footer";
 import AllBooks from "./companents/AllBooks";
 
+
 function App() {
   return (
     <div className="App">
@@ -17,10 +18,8 @@ function App() {
         <NewBooks/>
         <Books/>
         <About/>
-        <Footer/>
         <AllBooks/>
-
-        rr
+        <Footer/>
     </div>
   );
 }
