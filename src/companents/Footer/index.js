@@ -8,7 +8,6 @@ import {RiBook3Fill, RiBookFill, RiBookMarkFill, RiContactsBook2Fill} from "reac
 const Footer = () => {
     return (
         <div id="footer">
-
             <div className="container">
                 <div className="footer">
                     <div className="footer--text">
