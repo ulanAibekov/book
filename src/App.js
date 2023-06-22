@@ -1,7 +1,6 @@
 import './App.scss';
 import Header from "./companents/Header";
 import Hero from "./companents/Hero";
-import Genres from "./companents/Genres";
 import NewBooks from "./companents/NewBooks";
 import Books from "./companents/Books";
 import About from "./companents/About";
@@ -13,7 +12,7 @@ function App() {
     <div className="App">
         <Header/>
         <Hero/>
-        <Genres/>
+
         <NewBooks/>
         <Books/>
         <About/>
