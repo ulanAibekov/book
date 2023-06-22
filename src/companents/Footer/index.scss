@@ -1,0 +1,248 @@
+#footer {
+  padding: 50px 0 0 10px;
+  background: #818EEA;
+  .container {
+    .footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &--text {
+        h1 {
+          font-weight: 600;
+          font-size: 36px;
+          color: #FFFFFF;
+        }
+
+        h2 {
+          font-weight: 400;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          margin: 24px 0;
+        }
+
+        h3 {
+          position: relative;
+
+          input {
+            Width: 298px;
+            Height: 40px;
+            border: 0.5px solid #FFFFFF;
+            border-radius: 8px;
+            outline: none;
+            background: transparent;
+            padding: 0 40px 0 15px;
+            color: #fff;
+
+          }
+
+
+
+          button {
+            position: absolute;
+            top: 13px;
+            right: 55px;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+          }
+        }
+      }
+
+      &--lorem {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &__li {
+          margin: 0 50px;
+
+          h4 {
+            margin: 20px 0 21px 0;
+            font-weight: 600;
+            font-size: 16px;
+            color: #FFFFFF;
+          }
+
+          h5 {
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            margin: 8px 0;
+          }
+
+        }
+      }
+    }
+
+    .floor--blocks {
+      display: none;
+      }
+    }
+  }
+
+
+
+
+@media (max-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  #footer{
+    .container{
+      position: relative;
+      .footer{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: space-around;
+        &--text{
+          margin-left: 50px;
+        }
+        &--lorem{
+          &__li{
+            h4{
+              font-size: 20px;
+            }
+            h5{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+      .floor--blocks{
+        position: absolute;
+        display: block;
+        margin-top: 20px;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 9px 0 9px;
+        width: 90%;
+        height: 130px;
+        border-radius: 20px 20px 0 0;
+        background: #ffffff;
+        &__block {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .icon{
+            margin-bottom: 10px;
+            font-size: 25px;
+          }
+          h1 {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 14px;
+            text-align: center;
+            color: #19272E;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 576px) {
+  #footer {
+    .container {
+      .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+&--text{
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    width: 330px;
+    font-size: 15px;
+  }
+  h3{
+    position: relative;
+    input{
+      width: 348px;
+      padding: 0 0 0 15px;
+    }
+    button{
+      position: absolute;
+      top: 13px;
+      right: 20px;
+    }
+  }
+
+}
+        &--lorem {
+          display: flex;
+          &__li {
+            h4 {
+              font-size: 15px;
+            }
+
+            h5 {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      &--blocks{
+        &__block{
+          .icon{
+            font-size: 10px;
+          }
+          h1{
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 451px) {
+  #footer{
+    .container{
+      .footer{
+        &--text{
+          position: relative;
+          h1{
+            font-size: 10px;
+          }
+          h2{
+            font-size: 10px;
+          }
+          h3{
+            input{
+              width: 250px;
+            }
+            button{
+              position: absolute;
+              right: 70px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
