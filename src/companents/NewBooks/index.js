@@ -1,82 +1,32 @@
 import React from 'react';
 import './index.scss'
 import img from '../../img/image 6.png'
-import Slider from "react-slick";
+import img1 from '../../img/image 5.png'
+import img2 from '../../img/image 7.png'
 
 const NewBooks = () => {
-    const settings = {
-        dots: true,
-        infinite: false,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
     return (
         <div id='newBooks'>
             <div className="container">
                 <div className="newBooks">
                     <h1>New Books</h1>
                     <div className="newBooks--block">
-                        <Slider {...settings}>
-                            <div className="newBooks--block__book1">
+                        <div className="newBooks--block__book1">
                                 <img src={img} alt="img"/>
-                                <p>The Climate Book: <br/> The Facts and the <br/> Solutions</p>
-                                <span>by Greta Thunberg</span>
+                                <h2>The Climate Book: <br/> The Facts and the <br/> Solutions</h2>
+                                <p>by Greta Thunberg</p>
                             </div>
-                            <div className="newBooks--block__book1">
-                                <img src={img} alt="img"/>
-                                <p>The Climate Book: <br/> The Facts and the <br/> Solutions</p>
-                                <span>by Greta Thunberg</span>
-                            </div>
-
-                            <div className="newBooks--block__book1">
-                                <img src={img} alt="img"/>
-                                <p>Rest Is Resistance: <br/> A Manifesto</p>
-                                <span>by Tricia Hersey</span>
+                            <div className="newBooks--block__book2">
+                                <img src={img1} alt="img"/>
+                                <h2>The Climate Book: <br/> The Facts and the <br/> Solutions</h2>
+                                <p>by Greta Thunberg</p>
                             </div>
 
                             <div className="newBooks--block__book1">
-                                <img src={img} alt="img"/>
-                                <p>A New Name: <br/> Septology VI-VII</p>
-                                <span>by Jon Fosse</span>
+                                <img src={img2} alt="img"/>
+                                <h2>Rest Is Resistance: <br/> A Manifesto</h2>
+                                <p>by Tricia Hersey</p>
                             </div>
-                        </Slider>
                     </div>
                 </div>
             </div>

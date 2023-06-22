@@ -7,29 +7,3 @@
 @import "companents/About/index.scss";
 @import "companents/AllBooks/index.scss";
 
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-
-html {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-
-body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    font-family: sans-serif, 'Public Sans';
-}

@@ -1,47 +1,62 @@
 #newBooks {
-  padding: 90px 0;
+  padding: 80px 0;
 
-  .container {
-    .newBooks {
-      //display: flex;
-      //flex-direction: column;
-      //align-items: center;
-      h1 {
-        color: #19272E;
-        font-weight: 500;
-        font-size: 50px;
-        margin-left: 40%;
+  .newBooks {
+    h1 {
+      color: var(--text-color, #19272E);
+      text-align: center;
+      font-size: 48px;
+      font-weight: 500;
+      padding: 80px 0;
+    }
+
+    &--block {
+      padding: 40px 0;
+      display: flex;
+      //align-items: flex-start;
+      justify-content: center;
+      //overflow-x: scroll;
+      gap: 64px;
+      &__book1 {
+        padding: 80px 0;
+
+        image {
+          width: 200px;
+          height: 300px;
+        }
+        h2 {
+          margin-top: 10px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 120%;
+          text-transform: uppercase;
+        }
+
+        p {
+          margin-top: 15px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 500;
+        }
       }
 
-      &--block {
-        //display: flex;
-        //justify-content: space-evenly;
-        width: 70%;
-        margin-top: 85px;
-        margin-left: 15%;
+      &__book2 {
 
-        &__book1 {
-          margin: 0 32px;
-          transition: .3s;
+        h2 {
+          margin-top: 10px;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 120%;
+          text-transform: uppercase;
+        }
 
-          &:hover {
-            transform: translateY(-30px);
-          }
-
-          p {
-            color: #19272E;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 21px;
-            text-transform: uppercase;
-          }
-
-          span {
-            color: #3a5a69;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 25px;
-          }
+        p {
+          margin-top: 15px;
+          font-weight: 500;
+          color: var(--text-color, #19272E);
+          font-size: 18px;
         }
       }
     }
@@ -49,102 +64,47 @@
 }
 
 @media (max-width: 1440px) {
-  .container {
-    width: 80%;
+#nowBooks{
+  .newBooks{
+    h1{
+
+    }
+    &--block{
+      &__book1{
+        img{
+
+        }
+        h2{
+
+        }
+        p{
+
+        }
+      }
+    }
   }
+}
+}
+
+@media (max-width: 1200px) {
+
 }
 
 @media (max-width: 1024px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        h1 {
-          margin-left: 35%;
-        }
 
-        &--block {
-          width: 100%;
-          margin-left: 0;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        h1 {
-          font-size: 45px;
-          margin-left: 31%;
-        }
-
-        &--block {
-          margin-left: 3%;
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 576px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        h1 {
-          margin-left: 29%;
-        }
 
-        &--block {
-          margin-left: 0;
-        }
-      }
-    }
-  }
 }
 
-@media (max-width: 480px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        h1 {
-          margin-left: 31%;
-        }
+@media (max-width: 414px) {
 
-        &--block {
-          margin-left: 25%;
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 375px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        h1 {
-          width: 230px;
-          margin-left: 35%;
-        }
 
-        &--block {
-          margin-left: 27%;
-        }
-      }
-    }
-  }
 }
 
 @media (max-width: 320px) {
-  #newBooks {
-    .container {
-      .newBooks {
-        &--block {
-          margin-left: 70px;
-        }
-      }
-    }
-  }
 }
