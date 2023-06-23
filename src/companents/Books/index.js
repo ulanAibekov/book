@@ -12,72 +12,48 @@ const Books = () => {
         <div id='books'>
             <div className="container">
                 <div className="books">
+
                     <div className="books--title">
                         <h1>Books</h1>
                         <h3>View all</h3>
                     </div>
+
                     <div className="books--block">
-
-                                    <div className="books--block__book">
-                                        <img src={book1} alt="img"/>
-                                        <h2>THE SUBTLE ART OF  NOT GIVING A F*CK</h2>
-                                        <p>by Mark Manson</p>
-                                    </div>
-                                    <div className="books--block__book">
-
-                                    <div className="book">
-                                        <img src={book1} alt="img"/>
-                                        <h2>THE SUBTLE ART OF <br/> NOT GIVING A F*CK</h2>
-                                        <p>by Mark Manson</p>
-                                    </div>
-                                    <div className="book">
-                                        <img src={book2} alt="img"/>
-                                        <h2>8 RULES OF LOVE</h2>
-                                        <p>by Jay Shetty</p>
-                                    </div>
-                                    <div className="books--block__book">
-                                        <img src={book3} alt="img"/>
-                                        <h2>THE CREATIVE ACT</h2>
-                                        <p>by Rick Rubin with Neil Strauss</p>
-                                    </div>
-                                    <div className="books--block__book">
-                                        <img src={book4} alt="img"/>
-                                        <h2> THE BOY, THE MOLE, THE FOX AND THE <br/> HORSE</h2>
-                                        <p>by Charlie Mackesy</p>
-                                    </div>
-                                    <div className="books--block__book">
-                                    <div className="book">
-                                        <img src={book3} alt="img"/>
-                                        <h2>THE CREATIVE ACT</h2>
-                                        <p>by Rick Rubin with Neil <br/> Strauss</p>
-                                    </div>
-                                    <div className="book">
-                                        <img src={book4} alt="img"/>
-                                        <h2> THE BOY, THE MOLE, <br/> THE FOX AND THE <br/> HORSE</h2>
-                                        <p>by Charlie Mackesy</p>
-                                    </div>
-                                    <div className="book">
-                                        <img src={book5} alt="img"/>
-                                        <h2>HARRY POTTER</h2>
-                                        <p>by J.K. Rowling</p>
-                                    </div>
-
-                                    <div className="books--block__book">
-
-                                    <div className="book">
-
-                                        <img src={book6} alt="img"/>
-                                        <h2>IT ENDS WITH US</h2>
-                                        <p>by Colleen Hoover</p>
-                                    </div>
+                        <div className="books--block__book">
+                            <img src={book1} alt="img"/>
+                            <h2>THE SUBTLE ART OF NOT GIVING A F*CK</h2>
+                            <p>by Mark Manson</p>
+                        </div>
+                        <div className="books--block__book">
+                            <img src={book2} alt="img"/>
+                            <h2>8 RULES OF LOVE</h2>
+                            <p>by Jay Shetty</p>
+                        </div>
+                        <div className="books--block__book">
+                            <img src={book3} alt="img"/>
+                            <h2>THE CREATIVE ACT</h2>
+                            <p>by Rick Rubin with Neil Strauss</p>
+                        </div>
+                        <div className="books--block__book">
+                            <img src={book4} alt="img"/>
+                            <h2> THE BOY, THE MOLE, THE FOX AND THE <br/> HORSE</h2>
+                            <p>by Charlie Mackesy</p>
+                        </div>
+                        <div className="books--block__book">
+                            <img src={book5} alt="img"/>
+                            <h2>HARRY POTTER</h2>
+                            <p>by J.K. Rowling</p>
+                        </div>
+                        <div className="books--block__book">
+                            <img src={book6} alt="img"/>
+                            <h2>HARRY POTTER</h2>
+                            <p>by J.K. Rowling</p>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
-                </div>
-                </div>
-                </div>
-
     );
 };
 

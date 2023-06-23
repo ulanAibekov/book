@@ -27,370 +27,212 @@
   }
 }
 
-
 @media (max-width: 1024px) {
 
 }
 
 @media (max-width: 992px) {
   #about {
-    .about {
-      h1 {
+    .container {
+
+      .about {
         &--img {
-          img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
 
-          }
-
-          p {
-
-            #about {
-              .container {
-
-                .about {
-                  h1 {
-                    &--img {
-                      display: flex;
-                      align-items: center;
-                      justify-content: center;
-                      flex-direction: column;
-
-                      img {
-
-                      }
-
-                      p {
-
-                      }
-                    }
-                  }
-                }
-              }
-
-
-              @media (max-width: 768px) {
-                #about {
-                  .about {
-                    h1 {
-                      font-size: 46px !important;
-                    }
-
-                    &--img {
-                      display: flex;
-                      align-items: center;
-                      justify-content: center;
-                      flex-direction: column;
-
-                      img {
-                        width: 378px;
-                      }
-
-                      p {
-                        width: 429px !important;
-                        text-align: center;
-
-
-                        @media (max-width: 768px) {
-                          #about {
-                            .container {
-
-                              .about {
-                                h1 {
-                                  &--img {
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: center;
-                                    flex-direction: column;
-
-                                    img {
-
-                                    }
-
-                                    p {
-                                      font-weight: 400;
-                                      font-size: 18px;
-                                      line-height: 140%;
-                                      color: #19272E;
-                                      width: 400px;
-
-                                    }
-
-                                  }
-                                }
-                              }
-                            }
-                          }
-
-
-                        }
-
-
-                        @media (max-width: 576px) {
-
-                          #about {
-                            .about {
-                              h1 {
-                                font-size: 46px !important;
-                              }
-
-                              &--img {
-                                display: flex;
-                                align-items: center;
-                                justify-content: center;
-                                flex-direction: column;
-
-                                img {
-                                  width: 378px;
-                                }
-
-                                p {
-                                  width: 429px !important;
-                                  text-align: center;
-
-                                  #about {
-                                    .container {
-
-                                      .about {
-                                        h1 {
-                                          &--img {
-                                            display: flex;
-                                            align-items: center;
-                                            justify-content: center;
-                                            flex-direction: column;
-
-                                            img {
-
-                                            }
-
-                                            p {
-
-                                            }
-                                          }
-
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-
-
-                                @media (max-width: 451px) {
-
-                                  #about {
-                                    .about {
-                                      h1 {
-                                        font-size: 40px !important;
-                                      }
-
-                                      &--img {
-                                        display: flex;
-                                        align-items: center;
-                                        justify-content: center;
-                                        flex-direction: column;
-
-                                        img {
-                                          width: 365px;
-                                        }
-
-                                        p {
-                                          width: 340px !important;
-                                          text-align: center;
-
-                                          #about {
-                                            .container {
-
-                                              .about {
-                                                h1 {
-                                                  &--img {
-                                                    display: flex;
-                                                    align-items: center;
-                                                    justify-content: center;
-                                                    flex-direction: column;
-
-                                                    img {
-
-                                                    }
-
-                                                    p {
-
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-
-
-                                        @media (max-width: 400px) {
-                                          #about {
-                                            .about {
-                                              h1 {
-                                                font-size: 40px !important;
-                                              }
-
-                                              &--img {
-                                                display: flex;
-                                                align-items: center;
-                                                justify-content: center;
-                                                flex-direction: column;
-
-                                                img {
-                                                  width: 335px;
-                                                }
-
-                                                p {
-                                                  width: 300px !important;
-                                                  text-align: center;
-
-                                                  #about {
-                                                    .container {
-
-                                                      .about {
-                                                        h1 {
-                                                          &--img {
-                                                            display: flex;
-                                                            align-items: center;
-                                                            justify-content: center;
-                                                            flex-direction: column;
-
-                                                            img {
-
-                                                            }
-
-                                                            p {
-
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-
-
-                                                @media (max-width: 376px) {
-                                                  #about {
-                                                    .about {
-                                                      h1 {
-                                                        font-size: 38px !important;
-                                                      }
-
-                                                      &--img {
-                                                        display: flex;
-                                                        align-items: center;
-                                                        justify-content: center;
-                                                        flex-direction: column;
-
-                                                        img {
-                                                          width: 335px;
-                                                        }
-
-                                                        p {
-                                                          width: 255px !important;
-                                                          text-align: center;
-
-                                                          #about {
-                                                            .container {
-
-                                                              .about {
-                                                                h1 {
-                                                                  &--img {
-                                                                    display: flex;
-                                                                    align-items: center;
-                                                                    justify-content: center;
-                                                                    flex-direction: column;
-
-                                                                    img {
-
-                                                                    }
-
-                                                                    p {
-
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-
-
-                                                        @media (max-width: 320px) {
-
-                                                          #about {
-                                                            .about {
-                                                              h1 {
-                                                                font-size: 35px !important;
-                                                              }
-
-                                                              &--img {
-                                                                display: flex;
-                                                                align-items: center;
-                                                                justify-content: center;
-                                                                flex-direction: column;
-
-                                                                img {
-                                                                  width: 288px;
-                                                                }
-
-                                                                p {
-                                                                  width: 223px !important;
-                                                                  text-align: center;
-                                                                  font-size: 16px !important;
-
-                                                                  #about {
-                                                                    .container {
-
-                                                                      .about {
-                                                                        h1 {
-                                                                          &--img {
-                                                                            display: flex;
-                                                                            align-items: center;
-                                                                            justify-content: center;
-                                                                            flex-direction: column;
-
-                                                                            img {
-
-                                                                            }
-
-                                                                            p {
-
-                                                                            }
-                                                                          }
-                                                                        }
-                                                                      }
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
         }
       }
     }
   }
 }
+
+@media (max-width: 768px) {
+    #about {
+      .about {
+        h1 {
+          font-size: 46px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 378px;
+          }
+
+          p {
+            width: 429px !important;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 768px) {
+    #about {
+      .container {
+        .about {
+          &--img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            p {
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 140%;
+              color: #19272E;
+              width: 400px;
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 576px) {
+
+    #about {
+      .about {
+        h1 {
+          font-size: 46px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 378px;
+          }
+
+          p {
+            width: 429px !important;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 451px) {
+
+    #about {
+      .about {
+        h1 {
+          font-size: 40px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 365px;
+          }
+
+          p {
+            width: 340px !important;
+            text-align: center;
+
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 400px) {
+    #about {
+      .about {
+        h1 {
+          font-size: 40px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 335px;
+          }
+
+          p {
+            width: 300px !important;
+            text-align: center;
+
+
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 376px) {
+    #about {
+      .about {
+        h1 {
+          font-size: 38px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 335px;
+          }
+
+          p {
+            width: 255px !important;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+@media (max-width: 320px) {
+    #about {
+      .about {
+        h1 {
+          font-size: 35px !important;
+        }
+
+        &--img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+
+          img {
+            width: 288px;
+          }
+
+          p {
+            width: 223px !important;
+            text-align: center;
+            font-size: 16px !important;
+
+          }
+        }
+      }
+    }
+  }
+
