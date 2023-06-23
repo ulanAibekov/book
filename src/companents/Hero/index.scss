@@ -86,6 +86,7 @@
         .hero-h1 {
           font-weight: 300;
           font-size: 28px;
+          width: 500px;
         }
 
         .p {
@@ -96,15 +97,29 @@
   }
 }
 
-@media (max-width: 451px) {
+@media (max-width: 480px) {
+  #hero {
+    .container {
+      .hero {
+
+        .hero-h1 {
+          margin-right: 130px;
+        }
+        .p{
+          margin-right: 130px;
+          width: 400px;
+        }
+      }
+    }
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   #hero {
     .container {
       .hero {
         width: 250px;
-        margin-left: -10px;
+        //margin-left: -10px;
 
         .hero-h1 {
           text-align: center;
@@ -124,7 +139,7 @@
   #hero {
     .container {
       .hero {
-        margin-left: -20px;
+        margin-left: 30px;
         padding: 65px 25px;
         width: 194px;
 
@@ -149,7 +164,7 @@
       .hero {
         padding: 65px 25px;
         width: 194px;
-        margin-left: -50px;
+        margin-left: 5px;
 
         .hero-h1 {
           font-weight: 300;

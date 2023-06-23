@@ -1,4 +1,7 @@
 #header {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  padding: 3px 0;
+
   .container {
     .header {
       margin: 40px 0;
@@ -130,7 +133,7 @@
 
       .header {
         .a {
-          font-size: 40px;
+          font-size: 30px;
         }
 
         .icons {
@@ -149,30 +152,52 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   #header {
     .container {
       .header {
-        &--nav {
-          a {
-            display: none;
+        &--logo {
+          .a{
+            font-size: 23px;
           }
-        }
+          &--nav {
+            a {
+              display: none;
+            }
+          }
 
-        .icons {
-          display: block;
+          .icons {
+            display: block;
+          }
         }
       }
     }
   }
 }
 
+@media (max-width: 376px) {
+  #header{
+    padding: 1px 0 !important;
+    .container{
+      .header{
+        margin: 20px 0;
+        &--logo{
+          .a{}
+          &__nav{
+
+          }
+        }
+      }
+    }
+  }
+
+}
 @media (max-width: 320px) {
   #header {
     .container {
       .header {
         .a {
-          font-size: 28px;
+          font-size: 20px;
         }
       }
     }

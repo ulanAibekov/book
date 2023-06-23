@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.scss'
-import img from '../../img/image 6.svg'
-import img1 from '../../img/image 5.svg'
-import img2 from '../../img/image 7.svg'
+import img from '../../img/image 6.png'
+import img1 from '../../img/image 5.png'
+import img2 from '../../img/image 7.png'
 
 const NewBooks = () => {
     return (
