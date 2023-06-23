@@ -5,6 +5,8 @@ import book3 from '../../img/book-3.png'
 import book4 from '../../img/book-4.png'
 import book5 from '../../img/book-5.png'
 import book6 from '../../img/book-7.jpg'
+import {Link, NavLink} from "react-router-dom";
+import Hero from "../Hero";
 
 const Books = () => {
 
@@ -15,9 +17,11 @@ const Books = () => {
 
                     <div className="books--title">
                         <h1>Books</h1>
-                        <h3>View all</h3>
+                        <Link to={"/pages"}>
+                            <h3>View all</h3>
+                        </Link>
                     </div>
-
+                                      
                     <div className="books--block">
                         <div className="books--block__book">
                             <img src={book1} alt="img"/>
