@@ -3,8 +3,10 @@
   padding: 80px;
   background: url("../../img/logo-hero.png") no-repeat center/cover;
 
+
   .container {
     .hero {
+      z-index: -60px;
       padding: 100px 0;
       display: flex;
       flex-direction: column;
